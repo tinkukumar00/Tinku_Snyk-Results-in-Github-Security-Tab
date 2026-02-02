@@ -1,16 +1,17 @@
 {
   "name": "snyk-github-security-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A demo project to showcase Snyk integration with GitHub Security tab.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.3",
-    "ejs": "3.1.6"
+    "express": "^4.19.2",
+    "ejs": "^3.1.9"
   }
 }
